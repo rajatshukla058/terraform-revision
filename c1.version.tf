@@ -17,6 +17,7 @@ provider "aws" {
 }
 
 
+
 # resource "aws_iam_role" "terraform_assumed_role" {
 #   name = "terraform-assumed-role"
 
@@ -35,3 +36,4 @@ provider "aws" {
 
 #   # Attach policies to this role to grant necessary permissions
 # }
+test
